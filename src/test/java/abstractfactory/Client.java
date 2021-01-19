@@ -7,7 +7,7 @@ public class Client {
     public void test() {
         IFactory factory = new SurgicalFactory();
         System.out.println(factory.create());
-        factory = new N96MaskFactory();
+        factory = new N95MaskFactory();
         System.out.println(factory.create());
     }
 }
